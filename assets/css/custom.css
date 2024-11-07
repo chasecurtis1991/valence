@@ -1,0 +1,314 @@
+/* === COLORS === */
+/* 
+	Purple: #7e44c4
+	
+	Facebook Blue: #4870B6
+	Instagram Brown: #936456
+	Youtube Red: #FF2B06
+	Spotify Green: #1ED660
+	Soundcloud Orange: #FF640F
+	Apple Music: #FFFFFF
+ */
+ 
+ /* === FONTS AVAILABLE === */
+/*
+font-family: 'Assistant', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Unica One', cursive;
+*/
+
+/* === GLOBAL === */
+body {
+	background-color: black;
+	font-family: 'Fjalla One', sans-serif;
+	color: black;
+}
+
+#social {
+	background: black;
+}
+
+#social .col-sm-3{
+	margin-top: 50px;
+}
+
+.socialLinks a {
+	background: none;
+	margin: 5px;
+}
+
+.socialLinks a:hover {
+	background: none;
+	text-decoration: none;
+}
+
+.fab:hover {
+	font-size: 40px;
+	transition: .1s ease all;
+}
+
+.fa-facebook-square {
+	color: #4870B6;
+	font-size: 35px;
+}
+.fa-instagram	    {
+	color: #936456;
+	font-size: 35px;
+}
+.fa-youtube		    {
+	color: #FF2B06;
+	font-size: 35px;
+}
+.fa-spotify		    {
+	color: #1ED660;
+	font-size: 35px;
+}
+.fa-soundcloud	    {
+	color: #FF640F;
+	font-size: 35px;
+}
+.fa-apple		    {
+	color: white;
+	font-size: 35px;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+#navigation hr {
+    border: 0;
+    height: 5px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.navbar, #footer{
+	text-transform: uppercase !important;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+nav .nav-item:hover {
+	font-size: 17.5px;
+	transition: 0.1s;
+}
+
+#cover {
+	background: url(../img/mixer.png);
+	background-attachment: fixed;
+	background-position: center 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-color: gray;
+	height: 200px;
+	color: black;
+}
+
+#about,
+#music,
+#services,
+#contact {
+	margin-top: 50px;
+	color: #fff;
+}
+
+#spotify, #facebook {
+		margin: 20px;
+		padding: 0px;
+		border: 0px;
+}
+
+#spotify iframe {
+	width: 100%;
+}
+
+#footer a:link{
+	font-size: 14px;
+	color: #fff;
+}
+#footer a:hover{
+	color: #67b0ff;
+	text-decoration: none;
+}
+
+#footer small a {
+	text-decoration: underline;
+}
+
+#footer small a:hover {
+	color: #67b0ff;
+	text-decoration: underline;
+}
+
+#footer hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+}
+
+#footer .text-center small {
+	color: #fff;
+}
+
+/* === HOME PAGE === */
+
+#welcomevid #youtube {
+	margin: 0px;
+	border: 0px;
+}
+
+#welcomevid .fiverr-seller-widget {
+	margin: 25px;
+}
+
+/* === ABOUT PAGE === */
+
+.centerer{
+  padding:10px 0;
+}
+
+@media (max-width:767px){
+  .custom-underline-text{
+    font-size:18px;}
+}
+
+.custom-underline-text,
+.custom-underline-text:hover,
+.custom-underline-text:focus,
+.custom-underline-text:active{
+	position:relative;
+	display:inline-block;
+	font-size:24px;
+	font-weight:400;
+	text-align:center;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration:none;
+}
+
+.custom-underline-text::after{
+    content:"";
+    position:absolute;
+    background-color:rgba(255,255,255,0.3);
+    transition:.2s ease-in all;
+    top:100%;
+    height:1.5px;
+    width:120%;
+    left:0%;
+}
+
+#about p,
+#services ul, p{
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* === MUSIC PAGE === */
+#music h3 {
+	margin: 0px 0px 10px 0px;
+	font-family: 'Assistant', sans-serif;
+}
+
+#music #spotifyLink {
+	color: #1ED660;
+	text-decoration: none;
+}
+
+#music #soundcloudLink {
+	color: #FF640F;
+	text-decoration: none;
+}
+
+#music a:hover {
+	font-size: 33px;
+	transition: 0.3s;
+}
+/* === CONTACT PAGE === */
+#contact h2 {
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	color: #666;
+	border-radius: 3px;
+	display: block;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 6px 12px;
+	margin: 10px 0;
+}
+
+#formspree .btn {
+	font-size: 15px;
+	background-color: purple;
+	border-color: purple;
+	text-align: center;
+	padding: 8px;
+}
+
+.btn:hover {
+	background-color: gray;
+	border-color: gray;
+}
+
+
+/* === MEDIA QUERIES === */
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media (max-width: 575px) { 
+	.custom-underline-text::after{
+	    width:100%;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	
+	#spotify-embed {
+		margin: 0;
+		width: 100%;
+	}
+	
+	#cover {
+		height: 400px;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+/*
+@media (min-width: 768px) { 
+	
+}
+*/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	div .col-sm-6 .spotify {
+		width: 400px;
+	}
+	
+	#widgets #spotify iframe {
+		width: 340px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+@media (min-width: 1200px) {
+	
+}
+*/
